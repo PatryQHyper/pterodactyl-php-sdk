@@ -1,0 +1,21 @@
+{
+  "name": "patryqhyper/pterodactyl-php-sdk",
+  "description": "PHP SDK for Pterodactyl's API v1",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "PatryQHyper",
+      "email": "kontakt@patryqhyper.pl"
+    }
+  ],
+  "require": {
+    "php": "^7.4|^8.0",
+    "guzzlehttp/guzzle": "^7.4.1",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "PatryQHyper\\Pterodactyl\\": "src/"
+    }
+  }
+}
