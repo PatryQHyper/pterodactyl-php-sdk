@@ -17,7 +17,7 @@ class UserManager extends BaseManager
         return $this->httpClient->get('servers/' . $serverIdentifier . '/users');
     }
 
-    public function post(string $serverIdentifier, array $data = [])
+    public function create(string $serverIdentifier, array $data = [])
     {
         return $this->httpClient->post('servers/' . $serverIdentifier . '/users', $data);
     }
